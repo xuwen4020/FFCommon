@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1F8A7EF82A2ECA1A00A297FA /* FFCommon.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A7EF72A2ECA1A00A297FA /* FFCommon.docc */; };
 		1F8A7EFE2A2ECA1A00A297FA /* FFCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8A7EF32A2ECA1A00A297FA /* FFCommon.framework */; };
-		1F8A7F032A2ECA1A00A297FA /* FFCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A7F022A2ECA1A00A297FA /* FFCommonTests.swift */; };
 		1F8A7F042A2ECA1A00A297FA /* FFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8A7EF62A2ECA1A00A297FA /* FFCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F8A7F0E2A2ED05800A297FA /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A7F0D2A2ED05800A297FA /* UILabel+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		1F8A7EF62A2ECA1A00A297FA /* FFCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFCommon.h; sourceTree = "<group>"; };
 		1F8A7EF72A2ECA1A00A297FA /* FFCommon.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FFCommon.docc; sourceTree = "<group>"; };
 		1F8A7EFD2A2ECA1A00A297FA /* FFCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F8A7F022A2ECA1A00A297FA /* FFCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCommonTests.swift; sourceTree = "<group>"; };
 		1F8A7F0D2A2ED05800A297FA /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				1F8A7EF52A2ECA1A00A297FA /* FFCommon */,
-				1F8A7F012A2ECA1A00A297FA /* FFCommonTests */,
 				1F8A7EF42A2ECA1A00A297FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,14 +75,6 @@
 				1F8A7EF72A2ECA1A00A297FA /* FFCommon.docc */,
 			);
 			path = FFCommon;
-			sourceTree = "<group>";
-		};
-		1F8A7F012A2ECA1A00A297FA /* FFCommonTests */ = {
-			isa = PBXGroup;
-			children = (
-				1F8A7F022A2ECA1A00A297FA /* FFCommonTests.swift */,
-			);
-			path = FFCommonTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8A7F032A2ECA1A00A297FA /* FFCommonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

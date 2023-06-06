@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FFCommon"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Swift 公共扩展"
   spec.description  = "Swift 公共扩展"
 
@@ -17,6 +17,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/xuwen4020/FFCommon.git", :tag => spec.version }
 
   spec.static_framework = true
-  spec.source_files  = "FFCommom/**/*.swift"
+  spec.source_files  = "FFCommon/**/*.swift"
 
 end

@@ -29,3 +29,22 @@ public extension UILabel {
         self.textAlignment = aliment
     }
 }
+
+//
+//extension UILabel {
+//    
+//    /// 字行间距
+//    /// 赋值之后使用，为赋值之前不生效
+//    ///
+//    /// - Parameter value: 间距px
+//    public func lineSpacing(_ value: CGFloat) {
+//        guard let text = text else { return }
+//        let atx = NSMutableAttributedString.init(text) { item in
+//            item.lineSpacing(value)
+//            item.alignment(self.textAlignment)
+//            item.foregroundColor(self.textColor)
+//            item.font(self.font)
+//        }
+//        attributedText = atx
+//    }
+//}

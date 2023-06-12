@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FFCommon"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.9"
   spec.summary      = "Swift 公共扩展"
   spec.description  = "Swift 公共扩展"
 

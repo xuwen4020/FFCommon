@@ -16,6 +16,7 @@
 		1F4B5B9E2A36F31200C632BF /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B5B9D2A36F31200C632BF /* Validator.swift */; };
 		1F4B5BA02A36F33300C632BF /* UserInterfaceStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B5B9F2A36F33300C632BF /* UserInterfaceStyle.swift */; };
 		1F4B5BA22A36F37000C632BF /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B5BA12A36F37000C632BF /* Weak.swift */; };
+		1F4B5BA52A36F8CD00C632BF /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B5BA42A36F8CD00C632BF /* Toast.swift */; };
 		1F876FAE2A36EE2C007AE1A6 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F876FAD2A36EE2C007AE1A6 /* UIApplication+Extension.swift */; };
 		1F876FB02A36EE63007AE1A6 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F876FAF2A36EE63007AE1A6 /* UIDevice+Extension.swift */; };
 		1F876FB22A36EE7E007AE1A6 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F876FB12A36EE7E007AE1A6 /* UIButton+Extension.swift */; };
@@ -41,6 +42,7 @@
 		1F8A7EFE2A2ECA1A00A297FA /* FFCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8A7EF32A2ECA1A00A297FA /* FFCommon.framework */; };
 		1F8A7F042A2ECA1A00A297FA /* FFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8A7EF62A2ECA1A00A297FA /* FFCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F8A7F0E2A2ED05800A297FA /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A7F0D2A2ED05800A297FA /* UILabel+Extension.swift */; };
+		AC5948450CA112A4BEE76386 /* Pods_FFCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143F38E44161F714E6B826D0 /* Pods_FFCommon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143F38E44161F714E6B826D0 /* Pods_FFCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4B5B902A36F1C200C632BF /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		1F4B5B922A36F1E700C632BF /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 		1F4B5B942A36F1F800C632BF /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 		1F4B5B9D2A36F31200C632BF /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		1F4B5B9F2A36F33300C632BF /* UserInterfaceStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceStyle.swift; sourceTree = "<group>"; };
 		1F4B5BA12A36F37000C632BF /* Weak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
+		1F4B5BA42A36F8CD00C632BF /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		1F623F35AC9C840070823158 /* Pods-FFCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCommon.release.xcconfig"; path = "Target Support Files/Pods-FFCommon/Pods-FFCommon.release.xcconfig"; sourceTree = "<group>"; };
 		1F876FAD2A36EE2C007AE1A6 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		1F876FAF2A36EE63007AE1A6 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		1F876FB12A36EE7E007AE1A6 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
@@ -89,6 +94,7 @@
 		1F8A7EF72A2ECA1A00A297FA /* FFCommon.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FFCommon.docc; sourceTree = "<group>"; };
 		1F8A7EFD2A2ECA1A00A297FA /* FFCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8A7F0D2A2ED05800A297FA /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		6711C2040C9561C7F266B100 /* Pods-FFCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCommon.debug.xcconfig"; path = "Target Support Files/Pods-FFCommon/Pods-FFCommon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5948450CA112A4BEE76386 /* Pods_FFCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +132,7 @@
 		1F4B5BA32A36F3A000C632BF /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				1F4B5BA42A36F8CD00C632BF /* Toast.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -185,6 +193,8 @@
 			children = (
 				1F8A7EF52A2ECA1A00A297FA /* FFCommon */,
 				1F8A7EF42A2ECA1A00A297FA /* Products */,
+				692C06A38AA495F7CF5B0BB6 /* Pods */,
+				21B667B19D1D5A62BEF645A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,6 +217,24 @@
 			path = FFCommon;
 			sourceTree = "<group>";
 		};
+		21B667B19D1D5A62BEF645A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				143F38E44161F714E6B826D0 /* Pods_FFCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		692C06A38AA495F7CF5B0BB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6711C2040C9561C7F266B100 /* Pods-FFCommon.debug.xcconfig */,
+				1F623F35AC9C840070823158 /* Pods-FFCommon.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -225,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F8A7F072A2ECA1A00A297FA /* Build configuration list for PBXNativeTarget "FFCommon" */;
 			buildPhases = (
+				16E030646A77D5C779C260B4 /* [CP] Check Pods Manifest.lock */,
 				1F8A7EEE2A2ECA1A00A297FA /* Headers */,
 				1F8A7EEF2A2ECA1A00A297FA /* Sources */,
 				1F8A7EF02A2ECA1A00A297FA /* Frameworks */,
@@ -311,6 +340,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16E030646A77D5C779C260B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFCommon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F8A7EEF2A2ECA1A00A297FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -335,6 +389,7 @@
 				1F876FC72A36F096007AE1A6 /* Array+Extension.swift in Sources */,
 				1F4B5B9C2A36F2EF00C632BF /* Permission.swift in Sources */,
 				1F876FC02A36EFD5007AE1A6 /* UIStackView+Extension.swift in Sources */,
+				1F4B5BA52A36F8CD00C632BF /* Toast.swift in Sources */,
 				1F876FD82A36F142007AE1A6 /* NSMutableAttributedString+Extension.swift in Sources */,
 				1F876FB02A36EE63007AE1A6 /* UIDevice+Extension.swift in Sources */,
 				1F4B5B912A36F1C200C632BF /* String+Extension.swift in Sources */,
@@ -491,6 +546,7 @@
 		};
 		1F8A7F082A2ECA1A00A297FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6711C2040C9561C7F266B100 /* Pods-FFCommon.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					"$(ARCHS_STANDARD)",
@@ -528,6 +584,7 @@
 		};
 		1F8A7F092A2ECA1A00A297FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F623F35AC9C840070823158 /* Pods-FFCommon.release.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					"$(ARCHS_STANDARD)",

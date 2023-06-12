@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FFCommon"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.3"
   spec.summary      = "Swift 公共扩展"
   spec.description  = "Swift 公共扩展"
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
   spec.source_files  = "FFCommon/**/*.swift"
 
-  spec.dependency 'Toast-Swift', '~> 5.0.1'
+  #spec.dependency 'Toast-Swift', '~> 5.0.1'
   
  # spec.dependency 'AFNetworking', '~> 1.0'
   #spec.dependency 'AFNetworking', '~> 1.0', :configurations => ['Debug']
